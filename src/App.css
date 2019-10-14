@@ -6,6 +6,11 @@
   height: 40vmin;
 }
 
+.App-title{
+  font-size: 30px;
+  font-weight: bold;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -17,6 +22,22 @@
   color: white;
 }
 
-.App-link {
+.App-btn {
   color: #09d3ac;
+  margin: 20px 20px 20px 20px;
+  background-color: #000;
+  height: 70px;
+  width: 200px;
+  border-radius: 15px;
+  border-width: 0px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.App-form {
+  align-items: center;
+  justify-content: space-between;
+  align-self: center;
+  /* background-color: #09d3ac; */
+  border-radius: 30px;
 }
